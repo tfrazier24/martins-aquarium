@@ -1,0 +1,88 @@
+* {
+    border: 1px dotted darkblue;
+    padding: 1em;
+    margin: 1em;
+    font-family: Helvetica, Arial, sans-serif
+}
+​
+img {
+    height: 20vh;
+}
+/* Header components */
+header {
+    text-align: center;
+    display: flex;
+    font-size: 36;
+}
+
+.headerImage {
+    width: 15%;
+}
+
+/* Fish Components */
+.fishImg {
+    width: 20em;
+    height: 15em;
+}
+
+.fishArticle {
+    width: 75%;
+}
+.fishContainer {
+    display: flex;
+
+} 
+
+.fishHeader {
+    text-align: center;
+}
+
+.fishCard {
+    display: flex;
+} */
+
+/* quote Components */
+.travelCard {
+    text-align: center;
+}
+
+/* location Components */
+
+.locationImg {
+    width: 16vw;
+    height: 16vh;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.locationTitle {
+    text-align: center;
+}
+
+.locationContainer {
+    display: flex;
+    flex-flow: wrap row
+
+}
+
+.pictureFrame {
+    width: 16vw;
+    height: 16vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap row
+}
+
+p {
+    text-align: center;
+}
+
+/* Footer Component */
+
+footer {
+    text-align: center;
+}
+
+
