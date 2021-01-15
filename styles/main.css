@@ -49,21 +49,22 @@ header {
 /* location Components */
 
 .locationImg {
-    width: 16vw;
+    width: 25vw;
     height: 16vh;
     text-align: center;
     margin: 0;
     padding: 0;
 }
 
-.locationTitle {
+/* .locationTitle {
     text-align: center;
-}
+} */
 
-.locationContainer {
+.location-card {
     display: flex;
-    flex-flow: wrap row
-
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+    align-items: flex-end;
 }
 
 .pictureFrame {
@@ -72,7 +73,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: wrap row
+    flex-flow: wrap row;
 }
 
 p {
